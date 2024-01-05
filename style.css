@@ -3,12 +3,16 @@
     height: 250px;
 } */
 
-.row .infoBox {
-    height: 510px;
+.row .infoBox .angular{
+    margin-top: -43px;
 }
 
 @media screen and (max-width: 990px) {
     .container .row .bg-dark .topImg {
         width: 100% !important;
+    }
+
+    .row .infoBox .angular{
+        margin-top: 0;
     }
 }
