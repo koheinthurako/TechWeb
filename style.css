@@ -2,3 +2,9 @@
     width: 250px;
     height: 250px;
 } */
+
+@media screen and (max-width: 990px) {
+    .container .row .bg-dark .topImg {
+        width: 100% !important;
+    }
+}
