@@ -3,6 +3,10 @@
     height: 250px;
 } */
 
+.row .infoBox {
+    height: 510px;
+}
+
 @media screen and (max-width: 990px) {
     .container .row .bg-dark .topImg {
         width: 100% !important;
