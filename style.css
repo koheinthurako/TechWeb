@@ -7,6 +7,16 @@
     margin-top: -43px;
 }
 
+.row .col img {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.row .col img:hover {
+    scale: 1.05;
+    rotate: 5deg;
+}
+
 @media screen and (max-width: 990px) {
     .container .row .bg-dark .topImg {
         width: 100% !important;
